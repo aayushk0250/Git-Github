@@ -19,7 +19,7 @@
 ---
 
 ## What is GitHub?
-**:contentReference[oaicite:0]{index=0}** is a centralized platform where code is stored using Git.
+**GitHub** is a centralized platform where code is stored using Git.
 
 ### Why Use GitHub?
 - Acts as a **centralized system** for storing code
