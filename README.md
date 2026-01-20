@@ -30,6 +30,25 @@
 We can cllaborate with other developers here and write codes in parallel working on different features.
 ---
 
+# Push From Git To GitHub:
+1. Get git repo on the system
+   - git clone "repo-link"
+2. Move to that folder using termial cd ...
+2. Make changes in the downloaded folder (update/delete), then do following steps while being in the same folder
+3. Check git status to make sure changes are done
+   - git status
+
+4. Add all changes into git
+   - git add .
+
+5. Commit changes
+   - git commit -m "Message for the update"
+
+6. Update to GitHub
+   - git push origin main
+
+
+---
 ## Summary
 - **Git** helps track changes and manage different versions of code
 - **GitHub** is like a centralized system that helps to store, share, and collaborate on Git repositories
