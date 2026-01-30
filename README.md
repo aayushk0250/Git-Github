@@ -1,3 +1,17 @@
+## 📌 Table of Contents
+
+- [Git & GitHub — Learning Basics](#git--github--learning-basics)
+- [What is Git?](#what-is-git)
+  - [Commit](#commit)
+  - [Branching](#branching)
+  - [Push vs Pull](#push-vs-pull)
+  - [Common Git Commands](#common-git-commands)
+- [What is GitHub?](#what-is-github)
+  - [Why Use GitHub?](#why-use-github)
+- [Push From Git To GitHub](#push-from-git-to-github)
+- [Summary](#summary)
+---
+
 # Git & GitHub — Learning Basics
 
 ## What is Git?
@@ -14,7 +28,37 @@
 ## Common Git Commands
 - *git clone <url>* → Download a repository from the internet  
 - *ls -a* → Show all files including hidden files  
-- *git status* → Shows whether any files are updated and need to be committed  
+- *git status* → Shows whether any files are updated and need to be committed.
+---
+
+## Branching
+A **branch** is a separate line of development in Git.
+
+### Why Use Branches?
+- Allows developers to **work on features independently**
+- Helps avoid **breaking the main code**
+- Makes team collaboration safer and cleaner
+
+- Default branch is usually:
+  - **main**
+  - **master**
+
+### Common Branch Commands
+- *git branch* → List all branches  
+- *git branch feature-login* → Create a new branch  
+- *git checkout feature-login* → Switch to the branch  
+
+---
+
+## Push vs Pull
+
+### git push
+- Used to **upload local commits** to GitHub
+- Sends your changes from **local system → remote repository**
+
+### git pull
+- Used to **download latest changes** from GitHub
+
 
 ---
 
@@ -28,6 +72,7 @@
   - **Personal code storage**
   - A **collaboration tool in companies**, where developers can download and work on code changes committed by others
 We can cllaborate with other developers here and write codes in parallel working on different features.
+
 ---
 
 # Push From Git To GitHub:
@@ -47,8 +92,9 @@ We can cllaborate with other developers here and write codes in parallel working
 6. Update to GitHub
    - git push origin main
 
+- Brings updates from **remote repository → local system**
 
 ---
-## Summary
+# Summary
 - **Git** helps track changes and manage different versions of code
 - **GitHub** is like a centralized system that helps to store, share, and collaborate on Git repositories
