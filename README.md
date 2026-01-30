@@ -17,18 +17,14 @@
 ## What is Git?
 **Git** is a version control system used to **track changes made in the codebase**.
 
+---
+
 ### Commit
 - A **commit** acts as a **checkpoint** in our code.
 - We can commit changes for different parts of a project such as *header*, *body*, *footer*, *payment gateway*, etc.
 - A commit can be understood as a **snapshot/screenshot of the current state of the code**.
 - We can **go back to any previous state** of the code from the time it was committed.
 
----
-
-## Common Git Commands
-- *git clone <url>* → Download a repository from the internet  
-- *ls -a* → Show all files including hidden files  
-- *git status* → Shows whether any files are updated and need to be committed.
 ---
 
 ## Branching
@@ -42,7 +38,7 @@ A **branch** is a separate line of development in Git.
 - Default branch is usually:
   - **main**
   - **master**
-
+    
 ### Common Branch Commands
 - *git branch* → List all branches  
 - *git branch feature-login* → Create a new branch  
@@ -59,6 +55,12 @@ A **branch** is a separate line of development in Git.
 ### git pull
 - Used to **download latest changes** from GitHub
 
+---
+
+## Common Git Commands
+- *git clone <url>* → Download a repository from the internet  
+- *ls -a* → Show all files including hidden files  
+- *git status* → Shows whether any files are updated and need to be committed.
 
 ---
 
