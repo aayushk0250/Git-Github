@@ -82,7 +82,7 @@ We can cllaborate with other developers here and write codes in parallel working
    - git clone "repo-link"
 2. Move to that folder using termial cd ...
 2. Make changes in the downloaded folder (update/delete), then do following steps while being in the same folder
-3. Check git status to make sure changes are done
+3. Check git status to make sure changes are done:
    - git status
 
 4. Add all changes into git
