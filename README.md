@@ -98,5 +98,9 @@ We can cllaborate with other developers here and write codes in parallel working
 
 ---
 # Summary
-- **Git** helps track changes and manage different versions of code
-- **GitHub** is like a centralized system that helps to store, share, and collaborate on Git repositories
+- **Git** helps track changes and manage different versions of code efficiently
+- **Commits** act as checkpoints, allowing developers to revert to previous stable states
+- **Branching** enables parallel development and safer feature implementation without affecting the main codebase
+- **GitHub** serves as a centralized platform to store, share, and collaborate on Git repositories
+- **Push and Pull operations** help keep local and remote repositories in sync
+- Together, **Git and GitHub** improve code reliability, team collaboration, and overall development workflow
