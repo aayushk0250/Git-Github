@@ -91,7 +91,7 @@ We can cllaborate with other developers here and write codes in parallel working
 5. Commit changes
    - git commit -m "Message for the update"
 
-6. Update to GitHub
+6. Update to GitHub (Local to Repo)
    - git push origin main
 
 - Brings updates from **remote repository → local system**
