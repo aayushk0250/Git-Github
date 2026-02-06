@@ -5,6 +5,7 @@
   - [Commit](#commit)
   - [Branching](#branching)
   - [Push vs Pull](#push-vs-pull)
+  - [Git Init](#git-init)
   - [Common Git Commands](#common-git-commands)
 - [What is GitHub?](#what-is-github)
   - [Why Use GitHub?](#why-use-github)
@@ -55,6 +56,11 @@ A **branch** is a separate line of development in Git.
 ### git pull
 - Used to **download latest changes** from GitHub
 
+---
+
+## git init
+- To initialize a new folder as git folder on our local system, we use `GIT INIT`.
+- 
 ---
 
 ## Common Git Commands
