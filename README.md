@@ -60,7 +60,17 @@ A **branch** is a separate line of development in Git.
 
 ## git init
 - To initialize a new folder as git folder on our local system, we use `GIT INIT`.
-- 
+CODE:
+```
+- git init
+- git remote add origin githubLink
+- git push origin main / git push -u origin main
+# Extra:
+  1. git remote -v (verify remote)
+  2. git branch (check branch)
+  3. git branch -M newName (rename a branch name to newName/or anything written here)
+  4. -u: upstreaming, then from next time just write git push
+```
 ---
 
 ## Common Git Commands
