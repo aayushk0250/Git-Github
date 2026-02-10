@@ -45,6 +45,7 @@ A **branch** is a separate line of development in Git.
 - *git branch feature-login* → Create a new branch  
 - *git checkout feature-login* → Switch to the branch
 - *git checkout -b new_branch_name* -> creates new branch
+- *git checkout -d X* -> deletes branch X (possible only when we are not not in X)
 
 ---
 
