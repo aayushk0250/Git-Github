@@ -43,7 +43,8 @@ A **branch** is a separate line of development in Git.
 ### Common Branch Commands
 - *git branch* → List all branches  
 - *git branch feature-login* → Create a new branch  
-- *git checkout feature-login* → Switch to the branch  
+- *git checkout feature-login* → Switch to the branch
+- *git checkout -b new_branch_name* -> creates new branch
 
 ---
 
