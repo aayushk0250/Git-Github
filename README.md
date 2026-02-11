@@ -122,3 +122,4 @@ We can cllaborate with other developers here and write codes in parallel working
 - **GitHub** serves as a centralized platform to store, share, and collaborate on Git repositories
 - **Push and Pull operations** help keep local and remote repositories in sync
 - Together, **Git and GitHub** improve code reliability, team collaboration, and overall development workflow
+- To merge different branches, we use merge keyword
