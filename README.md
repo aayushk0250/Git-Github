@@ -49,6 +49,59 @@ A **branch** is a separate line of development in Git.
 
 ---
 
+## Merging
+
+A **merge** is the process of combining changes from one branch into another in Git.
+
+### Why Use Merging?
+- Brings completed features into the **main** branch  
+- Combines work from multiple developers  
+- Keeps project history organized  
+- Integrates tested code into production  
+
+### How Merging Works
+When you merge:
+- Git takes the changes from one branch  
+- Combines them with the current branch  
+- Creates a **merge commit** (if needed)  
+
+Example workflow:
+1. Create a feature branch  
+2. Work on it  
+3. Switch back to main  
+4. Merge the feature branch  
+
+### Common Merge Commands
+- *git checkout main* → Switch to main branch  
+- *git merge feature-login* → Merge feature-login into main  
+- *git merge --no-ff branch_name* → Force a merge commit  
+- *git branch -d branch_name* → Delete branch after merging  
+
+### Types of Merge
+1. **Fast-Forward Merge**
+   - Happens when there are no new commits in main  
+   - Git simply moves the pointer forward  
+   - No merge commit is created  
+
+2. **Three-Way Merge**
+   - Happens when both branches have new commits  
+   - Git creates a merge commit  
+   - Keeps full history visible  
+
+### Merge Conflicts
+A **merge conflict** happens when:
+- Two branches modify the same line of code  
+- Git cannot automatically decide which change to keep  
+
+To resolve:
+1. Open the conflicted file  
+2. Edit and fix the conflict  
+3. *git add file_name*  
+4. *git commit*  
+
+---
+
+
 ## Push vs Pull
 
 ### git push
