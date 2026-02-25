@@ -16,7 +16,10 @@
 # Git & GitHub — Learning Basics
 
 ## What is Git?
-**Git** is a version control system used to **track changes made in the codebase**.
+**Git** is a distributed version control system (DVCS) used to **track changes made in the codebase**.
+
+- Git is a distributed version control system (DVCS), meaning every developer has a complete copy of the repository history on their local machine.
+- It allows developers to work offline, perform faster operations, and collaborate efficiently without constantly relying on a central server.
 
 ---
 
