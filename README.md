@@ -1,4 +1,4 @@
-## 📌 Table of Contents
+## 📌 Table of Contents 📌
 
 - [Git & GitHub — Learning Basics](#git--github--learning-basics)
 - [What is Git?](#what-is-git)
